@@ -11,20 +11,40 @@
   </head>
   
   <body>
-    <h1>Side Scrolling</h1>
-    <section class="js-side-scroll scroll-dev">
-	<div class="scroll-container" data-target=".main">
+    <section class="scroll-section section-1">
+ 	<h2>1</h2>
+</section>
+<section class="scroll-section js-scroll-section scroll-dev section-2" data-target=".scroll-container" data-center=".main">
+	<div class="scroll-container">
 		<!--
 		<div class="js-scroll-section left is-active"></div>
 		-->
-		<div class="main"></div>
+		<div class="side">
+			<h2>left</h2>
+		</div>
+		<div class="main">
+			<h2>Scroll left or Right</h2>
+			<p>
+				return to center to scroll up/down
+			</p>
+		</div>
+		<div class="side">
+			<h2>right</h2>
+		</div>
 		<!--
 		<div class="js-scroll-section right is-active"></div>
 		-->
 	</div>
 
-	    
 	<div></div>
+</section>
+
+<section class="scroll-section section-3">
+	<h2>3</h2>
+</section>
+
+<section class="scroll-section section-4">
+	<h2>4</h2>
 </section>
   </body>
 </html>
